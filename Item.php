@@ -57,7 +57,7 @@ final class Item
     /**
      * Get object props
      * 
-     * @param mixed $propname
+     * @param string $propname
      * @return mixed
      */    
     public function __get($propname)
