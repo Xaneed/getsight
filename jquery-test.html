@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <textarea rows="15" cols="70">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Nam, tenetur ad sequi, sapiente culpa accusamus nemo voluptatibus quas, neque nostrum magnam, quos praesentium quibusdam perspiciatis necessitatibus. Corporis, rem? Veritatis, quos!
+  Laborum dolores nisi, maiores velit illo, commodi praesentium doloremque minus voluptas aut sapiente magni quo nemo numquam, odit, assumenda temporibus. Accusantium repellendus ipsa laborum, necessitatibus asperiores molestias veniam, debitis delectus!
+  Odio debitis, quos ipsa adipisci repellat eligendi ea aliquid itaque ad culpa quas possimus blanditiis. Quos, minus totam expedita at dolore, doloribus, illum nihil consequatur nisi vel, vero quod ea.
+  Omnis, voluptate. Similique, harum illo sit nam laudantium, velit, et dicta itaque eius saepe eveniet delectus. Magnam quos, eligendi distinctio culpa quia beatae, repellat nemo eaque adipisci minus id laudantium.
+  Provident, omnis amet cum atque facere sapiente, quos doloremque, est ullam eveniet dolorum ipsa quia nam exercitationem odio, esse. Veniam, minus. Inventore totam, mollitia! Voluptates consectetur possimus aspernatur, aperiam sapiente!
+  Recusandae voluptates nemo reiciendis omnis placeat ratione necessitatibus, eos ipsa quos dolorem, expedita minima dignissimos obcaecati, dolorum quae corrupti nesciunt, iure officia cum nam. Aliquam, nam id ea distinctio perferendis?
+  Minus, dolorum. Praesentium, voluptates. Placeat doloremque dicta sunt maxime repellat, impedit autem corrupti non, quia nesciunt eveniet est aut consequuntur quod quidem laboriosam nisi facere dignissimos reiciendis illo illum? Similique?
+  Illum, nam pariatur eligendi deleniti cumque perspiciatis voluptatum ipsum, maiores distinctio. Doloremque ducimus tempore ipsum ea quod voluptatibus omnis, aspernatur fuga velit blanditiis sed, tempora? Nulla possimus soluta iusto architecto.
+  Id ipsum cum autem atque, ratione at, vitae numquam adipisci voluptas quidem suscipit recusandae! Fugiat dolor non ad magnam animi, vitae. Eum, non voluptatem harum ratione accusantium adipisci illo et.
+  Numquam, officiis beatae minima ullam dolor maxime nostrum neque distinctio impedit reiciendis illo ratione aut voluptate deleniti, hic commodi maiores repudiandae aliquid. Nemo laboriosam quis dolorem, earum impedit. Molestias, autem.</textarea>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    let pressed = false;
+
+    $(document).on('keydown', function(e) {
+      if (!pressed && e.keyCode >= 37 && e.keyCode <= 40) {
+        alert(e.code);
+        pressed = true;
+      }
+    });
+  </script>
+</body>
+</html>
